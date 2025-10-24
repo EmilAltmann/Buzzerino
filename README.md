@@ -268,9 +268,9 @@ The installation of the 1602A LCD display is analogous to the USB-C breakout boa
 
 Now we can install the RGB LED.
 
-![Position and rotation of the RGB LED.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_65.jpg "Position and rotation of the RGB LED.")
+![Position and rotation of the RGB LED.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_66.jpg "Position and rotation of the RGB LED.")
 
-![Fully seated RGB LED.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_66.jpg "Fully seated RGB LED.")
+![Fully seated RGB LED.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_67.jpg "Fully seated RGB LED.")
 
 The LED is, like the buzzer, polarized. But here the longest leg is the negative connection. The footprint on the Buzzerino PCB indicates the negative connection with a square pad. Place the LED into its position. The spacing of the pads is a bit wider than the lead spacing, so the leads will spread out automatically.
 
