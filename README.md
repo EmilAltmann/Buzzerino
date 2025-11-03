@@ -1,6 +1,8 @@
 # Buzzerino
 
-This is the repository of the soldering kit by the Department of Digital Systems at the University of Kassel.
+This is the repository of the soldering kit by the Digital Technology Group at the University of Kassel.
+
+![logo](https://github.com/EmilAltmann/Buzzerino/blob/main/images/DigiTec_logo "logo")
 
 The contents of this document:
 * [Soldering Instructions](#soldering-instructions)
@@ -36,6 +38,7 @@ Please check if you have all the necessary components listed below:
 * 1x 2x16 pin header
 * 1x 2x7 pin header
 * 1x 2x3 pin header
+* 26x jumper
 
 ### Assembly of the Raspberry Pi Pico
 
@@ -117,6 +120,7 @@ The resistors come with straight leads and need to be formed. For that purpose h
 ![The NTC position on the PCB.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_22.jpg "The NTC position on the PCB.")
 
 The newly formed resistor can now be inserted into the Buzzerino PCB at the position marked TH_NTC.
+**Important:** The printed side of the Buzzerino PCB is the front of the PCB. The lower left corner should have our DIGETEC logo!
 
 ![The NTC with slightly bent leads.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_23.jpg "The NTC with slightly bent leads.")
 
@@ -230,7 +234,7 @@ The 1x3 pin header is one of the fiddliest to install. With all the previous pra
 
 ![Side view onto the USB-C breakout board.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_56.jpg "Side view onto the USB-C breakout board.")
 
-Now we can solder the USB-C breakout board. After placing it into position, solder one pin. Then check for alignment; it should be parallel to the Buzzerino PCB. Then solder it completely.
+Now we can solder the USB-C breakout board. After placing it into position (right side of the Buzzerino PCB, facing outwards, the usb port shuld be fully visible), solder one pin. Then check for alignment; it should be parallel to the Buzzerino PCB. Then solder it completely.
 
 **WARNING:** The pins of the USB-C breakout board, the AHT10 temperature sensor, and the 1602A LCD display are too hard for electronics side cutters! Use larger wire cutters as provided.
 
@@ -240,7 +244,7 @@ Now we can solder the USB-C breakout board. After placing it into position, sold
 
 ![The position of the AHT10 digital temperature sensor.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_58.jpg "The position of the AHT10 digital temperature sensor.")
 
-The installation of the AHT10 digital temperature sensor is analogous to the USB-C breakout board. But remember: use the larger wire cutters for cutting the pins to length.
+The installation of the AHT10 digital temperature sensor is analogous to the USB-C breakout board (Position left side of the Buzzerino PCB, facing upwards, the components of the sub-PCB sould be visible). But remember: use the larger wire cutters for cutting the pins to length.
 
 ### Installation of the Buzzer
 
