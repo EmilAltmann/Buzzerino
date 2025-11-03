@@ -2,7 +2,7 @@
 
 This is the repository of the soldering kit by the Digital Technology Group at the University of Kassel.
 
-![logo](https://github.com/EmilAltmann/Buzzerino/blob/main/images/DigiTec_logo "logo")
+![logo](https://github.com/EmilAltmann/Buzzerino/blob/main/images/DigiTec_logo.png "logo")
 
 The contents of this document:
 * [Soldering Instructions](#soldering-instructions)
@@ -105,6 +105,8 @@ The assembly of the 1602A LCD display is very similar to the previous two steps.
 ### Installation of resistors
 #### 100 kΩ NTC temperature-dependent resistor
 
+The 100 kΩ NTC temperature-dependent resistor has a glass body with no markings.
+
 ![Buzzerino PCB and NTC Resistor side by side.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_17.jpg "Buzzerino PCB and NTC Resistor side by side.")
 
 The resistors come with straight leads and need to be formed. For that purpose hold them with one hand between two fingers and pull them to a U-shape with your other hand as seen in the following pictures:
@@ -138,6 +140,8 @@ After the resistor is fully seated, you can clip the leads flush with side cutte
 
 #### 1 kΩ resistor
 
+The 1 kΩ resistor has stripes as markings (Brown | Black | Red | | Gold).
+
 ![The 1 kΩ resistor.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_27.jpg "The 1 kΩ resistor.")
 
 ![The 1 kΩ resistor formed.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_28.jpg "The 1 kΩ resistor formed.")
@@ -150,6 +154,8 @@ Then place it in its position, solder one leg, correct the placement, solder com
 
 #### 10 kΩ resistor
 
+The 10 kΩ resistor has stripes as markings (Brown | Black | Orange | | Gold).
+
 ![The 10 kΩ resistor.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_30.jpg "The 10 kΩ resistor.")
 
 ![The 10 kΩ resistor formed.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_31.jpg "The 10 kΩ resistor formed.")
@@ -159,6 +165,8 @@ Then place it in its position, solder one leg, correct the placement, solder com
 For the 10 kΩ resistor: form, place, solder one leg, correct, solder fully, and clip flush.
 
 #### 330 Ω resistors
+
+The 330 Ω resistors hve stripes as markings (Orange | Orange | Black | Black | Brown).
 
 ![The 330 Ω resistors.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_33.jpg "The 330 Ω resistors.")
 
@@ -171,6 +179,8 @@ For the 10 kΩ resistor: form, place, solder one leg, correct, solder fully, and
 For the 330 Ω resistors: form, place, solder one leg, correct, solder fully, and clip flush.
 
 #### 120 kΩ resistor
+
+The 120 kΩ resistor has stripes as markings (Brown | Red | Yellow | | Gold).
 
 ![The 120 kΩ resistor.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_37.jpg "The 120 kΩ resistor.")
 
