@@ -208,11 +208,13 @@ With the D-pad buttons it's the same procedure as with the reset button.
 
 ### Soldering the pin header
 
+**Repeated Error: The short side shall go through the board!**
+
 ![The 2x7 pin header.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_44.jpg "The 2x7 pin header.")
 
 ![The 2x7 pin header position.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_45.jpg "The 2x7 pin header position.")
 
-We start by soldering the 2x7 pin header to the Buzzerino PCB. The short side shall go through the board.
+We start by soldering the 2x7 pin header to the Buzzerino PCB. **The short side shall go through the board.**
 
 ![The 2x7 pin header soldered by one pin.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_46.jpg "The 2x7 pin header soldered by one pin.")
 
@@ -340,7 +342,7 @@ You don't need to unplug and replug the Raspberry Pi Pico every time you want to
 
 ## Example Programs
 
-The code of the example programs and their .uf2 files will be available in the folder example_programs. Unless otherwise noted, all programs are designed and compiled for the Raspberry Pi Pico (neither the W version nor version 2) but can be recompiled for these targets. The preferred way to compile is VS Code with the Raspberry Pi Pico extension.
+The code of the example programs and their .uf2 files is available in the folder example_programs. Unless otherwise noted, all programs are designed and compiled for the Raspberry Pi Pico (neither the W version nor version 2) but can be recompiled for these targets. The preferred way to compile is VS Code with the Raspberry Pi Pico extension.
 
 ## How to Code
 
