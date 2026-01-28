@@ -342,7 +342,7 @@ You don't need to unplug and replug the Raspberry Pi Pico every time you want to
 
 ## Example Programs
 
-The code of the example programs and their .uf2 files is available in the folder example_programs. Unless otherwise noted, all programs are designed and compiled for the Raspberry Pi Pico (neither the W version nor version 2) but can be recompiled for these targets. The preferred way to compile is VS Code with the Raspberry Pi Pico extension.
+The code of the example programs and their .uf2 files are available in the folder example_programs. Unless otherwise noted, all programs are designed and compiled for the Raspberry Pi Pico (neither the W version nor version 2) but can be recompiled for these targets. The preferred way to compile is VS Code with the Raspberry Pi Pico extension.
 
 ## How to Code
 
