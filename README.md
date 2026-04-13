@@ -16,8 +16,8 @@ The contents of this document:
 We created a short video about the assembly process:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=cFA2UIF0SY8?si=ucTLQL97WAnX6xTo
-" target="_blank"><img src="http://img.youtube.com/vi/cFA2UIF0SY8?si=ucTLQL97WAnX6xTo/0.jpg" 
-alt="Assembly Video" width="240" height="180" border="10" /></a>
+" target="_blank"><img src="https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/loetvideo_thumbnail.png" 
+alt="Assembly Video" border="10" /></a>
 
 ![Parts of the Buzzerino.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/overview_without_pcb.jpg "Parts of the Buzzerino.")
 
