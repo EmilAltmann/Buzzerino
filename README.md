@@ -8,7 +8,7 @@ The contents of this document:
 * [Soldering Instructions](#soldering-instructions)
 * [Flashing](#flashing)
 * [Example Programs](#example-programs)
-* [How to Code](#how-to-code)
+* [How to Code / Work with AI](#how-to-code-and-work-with-ai)
 * [Parts and Wiki](#parts-and-wiki)
 
 ## Soldering Instructions
@@ -350,9 +350,12 @@ You don't need to unplug and replug the Raspberry Pi Pico every time you want to
 
 The code of the example programs and their .uf2 files are available in the folder example_programs. Unless otherwise noted, all programs are designed and compiled for the Raspberry Pi Pico (neither the W version nor version 2) but can be recompiled for these targets. The preferred way to compile is VS Code with the Raspberry Pi Pico extension.
 
-## How to Code
+## How to Code and Work with AI
 
 You can code the Raspberry Pi Pico using the Arduino IDE or Microsoft Visual Studio Code (VS Code) with the Raspberry Pi Pico extension. If you use the Arduino IDE, you need to install the necessary board support as described in the [blog post from Random Nerd Tutorials](https://randomnerdtutorials.com/programming-raspberry-pi-pico-w-arduino-ide/).
+We provide a comprehensive AI guidance document for users who want to use AI tools for programming, installation, or debugging. You can include the [AI_GUIDELINES.md](https://github.com/EmilAltmann/Buzzerino/blob/main/AI_GUIDELINES.md) file in your conversation with a chat-based AI assistant and ask it to follow the instructions closely.
+
+If possible, we recommend attaching the document directly to the conversation rather than pasting only parts of it. This helps ensure that the AI still has access to the full context and instructions, even in longer conversations.
 
 ## Parts and Wiki
 
