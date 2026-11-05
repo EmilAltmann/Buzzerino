@@ -14,6 +14,7 @@ add_executable(rpi_program_selector
     app_selftest.c
     weather_station.c
     rgb_led.c
+    status_led.c
 )
 
 pico_set_program_name(rpi_program_selector "rpi_program_selector")
@@ -25,6 +26,7 @@ pico_enable_stdio_usb(rpi_program_selector 1)
 
 target_link_libraries(rpi_program_selector
     pico_stdlib
+    pico_cyw43_arch_none
     hardware_i2c
     hardware_pwm
     hardware_adc

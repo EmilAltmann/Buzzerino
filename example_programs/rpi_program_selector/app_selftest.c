@@ -35,21 +35,6 @@
 #define RGB_G_PIN 21
 #define RGB_B_PIN 22
 
-#ifndef PICO_DEFAULT_LED_PIN
-#define PICO_DEFAULT_LED_PIN 25
-#endif
-
-static repeating_timer_t led_timer;
-static bool led_on = false;
-
-static bool led_timer_cb(repeating_timer_t *rt)
-{
-    (void)rt;
-    led_on = !led_on;
-    gpio_put(PICO_DEFAULT_LED_PIN, led_on);
-    return true;
-}
-
 static void lcd_write_2lines(const char *l0, const char *l1)
 {
     lcd_gotoxy(0, 0);
@@ -142,21 +127,6 @@ static double ntc_temp_c_from_adc(uint16_t adc_raw)
     double T_c = 1.0 / inv_T - 273.15;
 
     return T_c;
-}
-
-static void selftest_led_blink_start(void)
-{
-    gpio_init(PICO_DEFAULT_LED_PIN);
-    gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
-    gpio_put(PICO_DEFAULT_LED_PIN, 0);
-
-    add_repeating_timer_ms(500, led_timer_cb, NULL, &led_timer);
-}
-
-static void selftest_led_blink_stop(void)
-{
-    cancel_repeating_timer(&led_timer);
-    gpio_put(PICO_DEFAULT_LED_PIN, 0);
 }
 
 static void test_dpad(void)
@@ -310,8 +280,6 @@ static void test_rgb(void)
 
 void app_selftest_start(void)
 {
-    selftest_led_blink_start();
-
     lcd_clear();
     lcd_write_2lines("Welcome to the  ", "self test :)    ");
     sleep_ms(1000);
@@ -327,8 +295,6 @@ void app_selftest_start(void)
     test_ntc();
     test_aht10();
     test_rgb();
-
-    selftest_led_blink_stop();
 
     lcd_write_2lines("Congratulations:", "board is ready! ");
     sleep_ms(1500);

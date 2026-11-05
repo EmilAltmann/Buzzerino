@@ -2,6 +2,7 @@
 #include "lcd1602.h"
 #include "buttons.h"
 #include "menu.h"
+#include "status_led.h"
 
 #include "app_weather.h"
 #include "app_breakout.h"
@@ -13,6 +14,7 @@
 int main()
 {
     stdio_init_all();
+    status_led_start();
     lcd_init();
     buttons_init();
 
