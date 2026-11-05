@@ -29,3 +29,10 @@ target_include_directories(self_test PRIVATE
 
 # Create additional output files like .uf2, .bin, .hex
 pico_add_extra_outputs(self_test)
+
+# Copy the finished .uf2 next to the sources, so it can be downloaded from GitHub
+add_custom_command(TARGET self_test POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        $<TARGET_FILE_DIR:self_test>/self_test.uf2
+        ${CMAKE_CURRENT_SOURCE_DIR}/self_test.uf2
+)

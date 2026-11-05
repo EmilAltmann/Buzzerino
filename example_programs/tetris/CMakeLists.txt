@@ -23,3 +23,10 @@ target_include_directories(tetris PRIVATE
 
 # Create additional output files like .uf2, .bin, .hex
 pico_add_extra_outputs(tetris)
+
+# Copy the finished .uf2 next to the sources, so it can be downloaded from GitHub
+add_custom_command(TARGET tetris POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        $<TARGET_FILE_DIR:tetris>/tetris.uf2
+        ${CMAKE_CURRENT_SOURCE_DIR}/tetris.uf2
+)

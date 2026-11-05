@@ -22,3 +22,10 @@ target_include_directories(snake PRIVATE
 
 # Create additional output files like .uf2, .bin, .hex
 pico_add_extra_outputs(snake)
+
+# Copy the finished .uf2 next to the sources, so it can be downloaded from GitHub
+add_custom_command(TARGET snake POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        $<TARGET_FILE_DIR:snake>/snake.uf2
+        ${CMAKE_CURRENT_SOURCE_DIR}/snake.uf2
+)
