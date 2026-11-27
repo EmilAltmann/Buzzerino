@@ -47,7 +47,7 @@ Please check if you have all the necessary components listed below:
 * 26x jumper **(get them after soldering the rest)**
 
 Maybe this is going to be your first time soldering. Therefore here is an image as a reference point 
-![Soldering Technique](https://github.com/EmilAltmann/Buzzerino/blob/main/images/soldering_example.jpeg)
+![Soldering Technique](https://github.com/EmilAltmann/Buzzerino/blob/main/images/soldering_example.jpeg "Solder Techniques")
 ### Assembly of the Raspberry Pi Pico
 
 ![Raspberry Pi Pico and pin strips.](https://github.com/EmilAltmann/Buzzerino/blob/main/images/pictures_of_construction/instruction_step_1.jpg "Raspberry Pi Pico and pin strips.")
